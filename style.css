@@ -53,12 +53,12 @@ header {
     align-items: center;
     justify-content: space-evenly;
     padding: 2rem;
-    background: url('../images/zorobg2.jpg') center/cover repeat-x;
+    background: url('images/zorobg2.jpg') center/cover repeat-x;
 }
 
 
 
-/* Wanted Poster */
+
 #wanted {
     width: fit-content;
 }
