@@ -73,37 +73,73 @@ header {
 #description {
     width: 40%;
     border-left: 3px solid #197e00;
-    color: rgb(122, 109, 74);
+    color: #197e00;
     padding: 15px;
     background: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     backdrop-filter: blur(5px);
     margin-left: 15rem;
+    text-align: left;
 }
 
 #description h2 {
-    text-align: center;
     font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #197e00;
 }
 
 .profession {
     width: 100%;
-    height: 50vh;
-    float: left;
-    padding: 4rem;
-    margin-top: 2rem;
-    color: #197e00;
+    margin-top: 5rem;
+    height: 50vh;  
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/zorobg2.jpg);
+    background-position: center;
+    
+    
     
 }
-.profession h2 {
+
+.profession::before {
+
+}
+
+.ima {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    padding: 4rem;   
+    padding-top: 4rem;   
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+.cont h2 {
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #197e00;
+    margin-top: 5rem;
+    margin-bottom: 0%;
+    
     
 }
-.img-section  img {
-    width: 551px;
-    height: 310px;
-   
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(52, 78, 57) !important;
+    height: 16rem !important;
+    width: 14rem !important;
+    
+    
+    
 }
 
 .skill {
