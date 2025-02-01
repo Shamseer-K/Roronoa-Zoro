@@ -51,7 +51,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 2rem;
     background: url('images/zorobg2.jpg') center/cover repeat-x;
 }
@@ -64,21 +64,21 @@ header {
 }
 
 #wanted img {
-    width: 20rem;
-    height: 30rem;
+    width: 25rem;
+    height: 35rem;
     object-fit: cover;
 }
 
 /* Description Box */
 #description {
-    width: 40%;
+    width: 50%;
     border-left: 3px solid #197e00;
     color: #197e00;
     padding: 15px;
+    padding-bottom: 5rem;
     background: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     backdrop-filter: blur(5px);
-    margin-left: 15rem;
     text-align: left;
 }
 
@@ -89,36 +89,41 @@ header {
     color: #197e00;
 }
 
+#description p {
+    font-size: 18px;
+}
 .profession {
-    width: 100%;
+    width: 80%;
     margin-top: 5rem;
-    height: 50vh;  
+    height: fit-content;  
     display: flex;
     gap: 5rem;
     justify-content: center;
     align-items: center;
     background-image: url(images/zorobg2.jpg);
     background-position: center;
-    
-    
+}
+
+.profession h2 {
+    display: flex;
+    align-self: flex-start !important;
     
 }
 
-.profession::before {
-
-}
 
 .ima {
     background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: cover;
     display: flex;
-    flex-direction: row;
+    
     width: 100%;
     height: fit-content;
     padding: 4rem;   
     padding-top: 4rem;   
     display: flex;
     gap: 5rem;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     backdrop-filter: blur(3px);
 }
@@ -137,6 +142,7 @@ header {
     background-color: rgb(52, 78, 57) !important;
     height: 16rem !important;
     width: 14rem !important;
+    
     
     
     
